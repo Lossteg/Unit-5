@@ -3,6 +3,7 @@
 declare(strict_types = 1);
 
 namespace Animals;
+
 interface IAnimal
 {
     public function makeSound(): void;

@@ -3,6 +3,7 @@
 declare(strict_types = 1);
 
 namespace Animals;
+
 class Dog implements IAnimal
 {
     public function makeSound(): void
